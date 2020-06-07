@@ -65,7 +65,6 @@ while ciclo:
                 pygame.draw.polygon(screen,dead_color,poly,1)
 
     gameState = np.copy(newGameState)
-    time.sleep(0.1) # delay
     pygame.display.flip()
 
 pygame.quit()
